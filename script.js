@@ -7,12 +7,11 @@ function main() {
     $('.box').toggleClass('active');
     //creates new box
     var $newBox = $('.box').clone();
-    $newBox.toggleClass('inactive');
+    //$newBox.toggleClass('inactive');
+    $newBox.hide();
+    $newBox.fadeIn(1000);
     $newBox.appendTo(document.body);
-
   });
-
-
 }
 
 $(document).ready(main);

@@ -16,17 +16,18 @@
 }
 */
 
-.box {
+.box, .inactive {
   font-family: Arial, serif;
-  background-color: rgba(0, 0, 0, 0.1);
+  --background-color: rgba(0, 0, 0, 0.1);
   width: 100px;
   height: 100px;
   border: 18px dashed blue;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 0%;
+  left: 0%;
   float: left;
 }
+
 
 .active {
   background-color: blue;
